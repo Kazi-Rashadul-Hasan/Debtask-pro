@@ -1,0 +1,39 @@
+/* Custom Styles and Animations */
+.active-tab {
+  background-color: white;
+  color: #4f46e5;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.dark .active-tab {
+  background-color: #0f172a;
+  color: #818cf8;
+}
+
+/* Modal animation state */
+#taskModal.show {
+  display: flex;
+}
+
+#taskModal.show .modal-box {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #334155;
+}
